@@ -6,7 +6,7 @@
 
 ## Descripción
 
-Script **Bash automatizado** diseñado específicamente para **Manjaro Linux**.  
+Script **Bash automatizado** diseñado específicamente para **Distribuciones basadas en Arch Linux**.  
 Instala y configura de forma completa el stack **LAMP** (Apache, MariaDB, PHP) junto con **phpMyAdmin**, optimizando permisos y configuraciones del sistema automáticamente en **un solo paso**.
 
 ---
@@ -28,9 +28,6 @@ Configuración automática de permisos recursivos `777` en `/srv/http/`.
 🛠️ **Configuración de PHP**  
 Activación de extensiones necesarias y manejo de errores.
 
-🧹 **Auto-limpieza**  
-Eliminación automática de la carpeta del repositorio tras finalizar la instalación.
-
 ✅ **Validación de entorno**  
 Configurado para evitar errores de intérprete en sistemas **Arch / Manjaro**.
 
@@ -39,7 +36,7 @@ Configurado para evitar errores de intérprete en sistemas **Arch / Manjaro**.
 ## Requisitos del sistema
 
 - Bash (**v4.0+ recomendado**)
-- Sistema operativo **Manjaro Linux** (o derivados de Arch)
+- Sistema operativo **Basado en Arch Linux**
 - Conexión a internet activa
 - Permisos de ejecución en el script
 - Repositorios de **pacman** accesibles
